@@ -1,8 +1,8 @@
 plugins {
 	checkstyle
 	java
-	id("org.springframework.boot") version "3.2.3"
-	id("io.spring.dependency-management") version "1.1.4"
+	id("org.springframework.boot") version "3.2.5"
+	id("io.spring.dependency-management") version "1.1.5"
 	id("com.github.ben-manes.versions") version "0.51.0"
 	id("se.solrike.sonarlint") version "2.0.0"
 }
@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-	sonarlintPlugins("org.sonarsource.java:sonar-java-plugin:7.31.0.34839")
+	sonarlintPlugins("org.sonarsource.java:sonar-java-plugin:7.34.0.35958")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("io.github.cdimascio:dotenv-java:3.0.0")
